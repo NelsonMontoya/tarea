@@ -1,0 +1,24 @@
+body{
+    background-color: black;
+    color: aliceblue;
+}
+
+.navlist{
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: space-evenly;
+}
+
+.navlist li:nth-child(2){
+    background-color: aqua;
+}
+
+a{
+    color: white;
+}
+
+a.uno{
+    font-size: 50px;
+    color: blueviolet;
+}
